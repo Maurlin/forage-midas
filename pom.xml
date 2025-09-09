@@ -17,7 +17,13 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-	</dependencies>
+        <dependency>
+            <groupId>com.jpmc</groupId>
+            <artifactId>midas-core</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
